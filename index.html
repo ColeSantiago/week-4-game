@@ -1,80 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Star Wars RPG!</title>
+	<title>Crystal Gems!</title>
 
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<script type="text/javascript" src="assets/javascript/game.js"></script>
-
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+	
+	
 
 </head>
 <body>
 
-	<h1>Star Wars RPG!</h1>
+	<h1>Crystal Gem Collector!</h1>
 
-		<div id="potential-characters"></div>
+		<div class="instructions">
 
-			<div id="r2d2">
+			<p>You will be given a random number at the start of the game.</p>
 
-				<p class="r2d2">R2D2</p>
+			<br>
 
-				<img src="assets/images/star-wars-r2-d2-legendary-scale-feature-400155.jpg">
+			<p>There are four Crystal Gems below. By clicking on a gem you will add a specific amount of points to your total score.</p>
 
+			<br>
+
+			<p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number. </p>
+
+			<br>
+
+			<p>The value of each crystal is hidden from you until you click on it.</p>
+
+			<br>
+
+			<p>Each time when the game starts, the random number and the value of the gems will change.</p>
+
+		</div>
+
+
+			<div id="random-number"></div>
+
+			<div class="counters">
+				<p class="wins">Wins: <span id="wins"></span></p>
+				<p class="losses">Losses: <span id="losses"></span></p>
 			</div>
 
-			<div id="C3PO">
+			<div id="crystal-images"></div>
 
-				<p class="C3PO">C3PO</p>
+			<div class="score">Your total score is: </div>
 
-				<img src="assets/images/star-wars-c-3po-sixth-scale-feature-21711.jpg">
-
-			</div>
-
-			<div id="sand-people">
-
-				<p class="sand-people">Sand People</p>
-
-				<img src="assets/images/URoRRoRRR.jpg">
-
-			</div>
-
-			<div id="jawa">
-
-				<p class="jawa">Jawa</p>
-
-				<img src="assets/images/jawa1_9f3731a7.jpeg">
-
-			</div>
-
-
-		<h2> Your Character </h2>
-
-		<div id="your-character"></div>
-
-
-		<h3>Enemies Available To Attack</h3>
-
-		<div id="enemies"></div>
-
-
-		<h4>Fight Section</h4>
-
-		<div id="attack">Attack</div>
-
-
-		<h5>Defender</h5>
-
-		<div id="defender"></div>
-
-
-		<div>Reset</div>
-
-
+			<div id="score"></div>
 
 
 
