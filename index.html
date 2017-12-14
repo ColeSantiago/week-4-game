@@ -3,6 +3,8 @@
 <head>
 	<title>Crystal Gems!</title>
 
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Titillium+Web:900" rel="stylesheet">
+
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +20,7 @@
 <body background="assets/images/background-2.png">
 
 
-	<h1>Crystal Gem Collector!</h1>
+	<h1 class="heading">Crystal Gem Collector!</h1>
 
 		<div class="instructions">
 
@@ -26,7 +28,7 @@
 
 			<br>
 
-			<p>There are four Crystal Gems below. By clicking on a gem you will add a specific amount of points to your total score.</p>
+			<p>There are four Crystal Gems to the right. By clicking on a gem you will add a specific amount of points to your total score.</p>
 
 			<br>
 
@@ -42,8 +44,10 @@
 
 		</div>
 
-
-			<div id="random-number"></div>
+			<div class="random">
+				<div>Random Number: </div>
+				<div id="random-number"></div>
+			</div>
 
 			<div class="counters">
 				<p class="wins">Wins: <span id="wins"></span></p>
@@ -52,9 +56,14 @@
 
 			<div id="crystal-images"></div>
 
-			<div class="score">Your total score is: </div>
+			
+		<div class="score">
+
+			<div>Your total score is: </div>
 
 			<div id="score"></div>
+
+		</div>
 
 
 
