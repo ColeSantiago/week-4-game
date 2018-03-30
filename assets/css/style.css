@@ -16,21 +16,18 @@ body {
   margin:20px;
 }
 
-
 .crystal-images {
       width: 200px;
       margin:20px;
       top: -348px;
       left: 517px;
-    }
+}
 
 .crystal-images:hover {
 	cursor: pointer;
 	background: #33184c;
 	opacity: .9;
 }
-
-
 
 .instructions {
 	background: #184a3a;
@@ -45,9 +42,6 @@ body {
 	font-size: 20px;
 	top: 110px;
 	left: 52px;
-
-
-
 }
 
 .random {
@@ -78,8 +72,6 @@ body {
 	text-align: center;
 	top: -580px; 
 	left: 930px;
-
-
 }
 
 .score {
@@ -95,9 +87,7 @@ body {
     top: -855px;
     left: 1150px;
     padding:10px;
-
 }
-
 
 .heading {
 	background: #184a3a;
@@ -114,18 +104,3 @@ body {
 	left: 30px;
 	top: 30px; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
